@@ -1,0 +1,32 @@
+section.main-section
+  .wrapper
+    .main-section__container
+      include ../components/header.pug
+      img.main-section__icon(src="images/main-section-icon.png" loading="lazy" width="254" height="92" alt="icon")
+      h1.main-section__title.font-w-semi-bold.font-s-45.text-up
+        | Зарабатывайте от 227 000 
+        span.font-w-bold ₽ 
+        br.no-br
+        | ежемесячно на продаже АВТО 
+        br.no-br
+        | из Китая, Кореи и Японии
+      .main-section__sub-title
+        img.main-section__sub-title-icon(src="images/main-section-sub-title-icon.svg" loading="lazy" width="42" height="42" alt="icon")
+        .font-s-24
+          span.main-section__sub-title-mark Запустите работу бизнеса 
+          br.no-br
+          span.font-w-bold всего за 23 дня
+      .main-section__bottom
+        .main-section__bottom-title
+          img.main-section__bottom-title-icon(src="images/main-section-bottom-title-icon.png" loading="lazy" width="188" height="112" alt="icon")
+          .font-s-20
+            span.font-w-bold Узнайте, 
+            | как зарабатывать 
+            br
+            | на эксклюзивных услугах
+        form.main-section__form(data-feedback-form)
+          input(type="text" name="honeyfield" class="honeypot" style="display:none")
+          input.input.input--black(type="text" name="name" autocomplete="off" placeholder="Имя")
+          button.btn(type="submit") Скачать
+      img.main-section__img(src="images/main-section-img.png" loading="lazy" width="1443" height="600" alt="image")
+      img.main-section__border(src="images/main-section-border.svg" loading="lazy" width="345" height="65" alt="image")

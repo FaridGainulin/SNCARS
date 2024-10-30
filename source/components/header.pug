@@ -1,0 +1,14 @@
+header.header
+  .header__container
+    .header__brand-block
+      img.header__logo(src="images/logo-header.png" loading="lazy" width="264" height="98" alt="logo")
+      .header__brand.font-s-14
+        span.color-sky Франшиза 
+        | компании 
+        br
+        | по продаже автомобилей
+    .header__connection
+      a(href="tel:+79999999999")
+        img.header__connection-icon(src="images/connection-icon.svg" loading="lazy" width="32" height="32" alt="icon")
+      include ../components/phone-number.pug
+    //- .header__call-me.btn.btn--call-me(data-remodal-target="modal-form-call-me") Обратный звонок

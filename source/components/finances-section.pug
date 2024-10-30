@@ -1,0 +1,55 @@
+section.finances-section
+  .wrapper
+    .finances-section__container
+      h2.finances-section__title.font-w-semi-bold.font-s-45.text-up
+        | Франшиза 
+        span.color-sea SN
+        | Cars В цифрах
+      img.finances-section__arrow(src="images/finances-section-arrow.png" loading="lazy" width="97" height="62" alt="arrow")
+      .finances-section__box
+        .swiper-bullet
+          .finances-section__cards.swiper-wrapper
+            .finances-section__card.swiper-slide
+              .finances-section__card-title.color-sky.font-w-semi-bold.font-s-26.text-up
+                | 750 000 
+                span.font-w-bold ₽
+              .finances-section__card-text.font-s-18 средний размер инвестиций
+            .finances-section__card.swiper-slide
+              .finances-section__card-title.color-sky.font-w-semi-bold.font-s-26.text-up
+                | 515 000 
+                span.font-w-bold ₽
+              .finances-section__card-text.font-s-18 ежемесячная выручка
+            .finances-section__card.swiper-slide
+              .finances-section__card-title.color-sky.font-w-semi-bold.font-s-26.text-up
+                | от 8 сделок
+              .finances-section__card-text.font-s-18 будет совершаться ежемесячно
+            .finances-section__card.swiper-slide
+              .finances-section__card-title.color-sky.font-w-semi-bold.font-s-26.text-up
+                | 44,2%
+              .finances-section__card-text.font-s-18 рентабельность по чистой прибыли
+            .finances-section__card.swiper-slide
+              .finances-section__card-title.color-sky.font-w-semi-bold.font-s-26.text-up
+                | от 60 000 
+                span.font-w-bold ₽
+              .finances-section__card-text.font-s-18 ваша комиссия с одного заказа
+            .finances-section__card.swiper-slide
+              .finances-section__card-title.color-sky.font-w-semi-bold.font-s-26.text-up
+                | 227 000 
+                span.font-w-bold ₽
+              .finances-section__card-text.font-s-18 ежемесячная чистая прибыль
+          .bullet-pagination
+        img.finances-section__img(src="images/finances-section-img.png" loading="lazy" width="760" height="832" alt="image")
+      .finances-section__bottom
+        img.finances-section__bottom-img(src="images/finances-section-bottom-img.png" loading="lazy" width="1112" height="730" alt="image")
+        .finances-section__bottom-title.font-w-semi-bold.font-s-32.text-up
+          span.color-sea Узнайте, 
+          | что будет входить 
+          br
+          | в стартовые вложения
+        .finances-section__bottom-text.font-s-20
+          | Скачайте финансовую модель франшизы
+        form.finances-section__form(data-feedback-form)
+          input(type="text" name="honeyfield" class="honeypot" style="display:none")
+          input.input.input--white(type="text" name="name" autocomplete="off" placeholder="Имя")
+          input.input.input--white(type="tel" name="phone" autocomplete="off" data-inputmask="'mask': '+7 (999) 999 9999'" placeholder="Телефон")
+          button.btn(type="submit") Скачать

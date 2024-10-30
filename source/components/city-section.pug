@@ -1,0 +1,22 @@
+section.city-section
+  .wrapper
+    .city-section__container
+      h1.city-section__title.font-w-semi-bold.font-s-55.text-up
+        | Станьте частью 
+        br
+        | команды «SNCARS»
+      .city-section__sub-title-wrapper
+        .city-section__sub-title.font-w-bold.font-s-24.text-up
+          | и зарабатывайте от 2,7 млн чистой прибыли в год
+      .city-section__bottom
+        img.city-section__bottom-icon(src="images/city-section-bottom-icon.png" loading="lazy" width="186" height="120" alt="icon")
+        .city-section__bottom-text.font-w-bold.font-s-26
+          | Проверьте, свободен ли ваш город 
+          br
+          span.font-w-regular.font-s-22.city-section__bottom-text-color для работы с нами
+        form.city-section__form(data-feedback-form)
+          input(type="text" name="honeyfield" class="honeypot" style="display:none")
+          input.input.input--white(type="text" name="name" autocomplete="off" placeholder="Имя")
+          input.input.input--white(type="tel" name="phone" autocomplete="off" data-inputmask="'mask': '+7 (999) 999 9999'" placeholder="Телефон")
+          button.btn(type="submit") проверить
+      img.city-section__img(src="images/city-section-img.png" loading="lazy" width="1355" height="849" alt="image")
