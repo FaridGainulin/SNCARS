@@ -26,7 +26,7 @@ section.main-section
             | на эксклюзивных услугах
         form.main-section__form(data-feedback-form)
           input(type="text" name="honeyfield" class="honeypot" style="display:none")
-          input.input.input--black(type="text" name="name" autocomplete="off" placeholder="Имя")
+          input.input.input--black(type="tel" name="phone" autocomplete="off" data-inputmask="'mask': '+7 (999) 999 9999'" placeholder="Телефон")
           button.btn(type="submit") Скачать
       img.main-section__img(src="images/main-section-img.png" loading="lazy" width="1443" height="600" alt="image")
       img.main-section__border(src="images/main-section-border.svg" loading="lazy" width="345" height="65" alt="image")
